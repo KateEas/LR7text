@@ -119,7 +119,7 @@ function change_the_stage(id_card) {
     text_game.innerText = find_the_text(id_card);
 }
 function find_the_image(id_card) {
-    image_game.src = `LR7image/${id_card}.jpg`;
+    image_game.src = `${id_card}.jpg`;
 }
 
 
