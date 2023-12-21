@@ -1,0 +1,68 @@
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #759d49;
+  width: 100%;
+  display: grid;
+  column-gap: 20px;
+  position: absolute;
+
+}
+
+
+div {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #b6d37f;
+  box-shadow: 0 0 5px 5px #426550;
+  font-size: 20px;
+}
+
+.buttons_conteiner {
+  display: grid;
+  text-align: center;
+}
+
+
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 10px;
+  background: #b6d37f;
+  border: 3px solid #426550;
+  border-radius: 6px;
+  color: #426550;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow:
+    inset 0 1px 0 #426550 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgba(0, 0, 0, 0.2),
+    inset 0 3px 2px#426550 inset 0 -3px 2px rgba(0, 0, 0, .15),
+    inset 0 20px 10px #426550 0 0 4px 1px rgba(0, 0, 0, .1), 0 3px 2px rgba(0, 0, 0, .2);
+}
+
+
+
+img {
+  width: 75%;
+  max-height: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #426550;
+}
+
+p {
+  text-align: justify;
+  color: #426550;
+  font-style: italic;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 10px;
+  font-weight: bold;
+  word-break: break-all
+}
