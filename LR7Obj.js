@@ -93,7 +93,7 @@ const card18 = {
             new_card_id: 21
         }],
 }
-//на наличие браслета
+
 const card25 = {
     id: 25,
     button_option: [
@@ -102,7 +102,7 @@ const card25 = {
             new_card_id: 26
         }],
 }
-//на наличие браслета
+
 const card30 = {
     id: 30,
     button_option: [
@@ -155,7 +155,6 @@ function show_card(card_ind) {
 
         const button = document.createElement('button');
         button.innerText = btn.text;
-        button.classList.add('btn');
         button.addEventListener('click', () =>
             change_options(btn));
         div_for_buttons.appendChild(button);
@@ -368,7 +367,7 @@ const list_of_card = [
                 new_card_id: 29
             }]
     },
-    {///////////проверить картинку
+    {
         id: 13,
         button_option: [
             {
